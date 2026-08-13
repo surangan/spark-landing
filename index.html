@@ -102,6 +102,11 @@ nav{position:sticky;top:0;z-index:50;background:rgba(252,251,248,.94);backdrop-f
 .vp-list b{display:block;font-weight:600;font-size:.97rem;color:var(--ink)}
 .vp-list span{font-size:.9rem;color:var(--ink-soft)}
 .panel-cta{margin-top:30px}
+.panel-shot{margin-top:32px}
+.panel-shot img{display:block;border-radius:16px;border:1px solid var(--line);box-shadow:0 14px 34px rgba(2,42,84,.1)}
+.panel-shot-phone img{width:206px}
+.panel-shot-wide img{width:100%;max-width:460px}
+.panel-shot figcaption{margin-top:10px;font-size:.8rem;color:var(--ink-soft);font-style:italic;font-family:var(--display)}
 @media(max-width:860px){.panel.active{grid-template-columns:1fr}}
 
 /* ---------- MELD ---------- */
@@ -206,6 +211,10 @@ footer{background:var(--card);border-top:1px solid var(--line);color:var(--ink-s
         <p class="tagline">Upskilling that doesn't ask you to choose between work, life, and learning.</p>
         <p class="desc">Traditional courses demand hours you don't have. SPARK delivers what you need in bite-sized episodes — on your commute, over coffee, between meetings. And because every episode ends with a reason to come back, staying consistent stops being a battle of willpower.</p>
         <a class="btn btn-primary panel-cta" href="https://apps.apple.com/us/app/chill-spark/id6760994921" target="_blank" rel="noopener">Download the SPARK App</a>
+        <figure class="panel-shot panel-shot-phone">
+          <img src="learner-nudge.webp" alt="SPARK App notification on a phone lock screen inviting the learner to start today's session" loading="lazy">
+          <figcaption>A gentle nudge when your learning window opens.</figcaption>
+        </figure>
       </div>
       <ul class="vp-list">
         <li>
@@ -234,6 +243,10 @@ footer{background:var(--card);border-top:1px solid var(--line);color:var(--ink-s
         <p class="tagline">Turn existing course material into engaging micromodules — without becoming a video producer.</p>
         <p class="desc">You've spent years building your content. SPARK's AI converts your slides, notes, and readings into narrative-driven episodes structured on our proprietary content generation framework — so your teaching reaches learners who would never finish a two-hour recording.</p>
         <a class="btn btn-primary panel-cta" href="mailto:info@spark.nus.edu.sg?subject=Partnering%20with%20SPARK">Partner with SPARK</a>
+        <figure class="panel-shot panel-shot-wide">
+          <img src="instructor-studio.webp" alt="SPARK authoring studio showing a course learning pathway with chapters and microlearning video units" loading="lazy">
+          <figcaption>Your course, structured into a learning pathway of micro-units.</figcaption>
+        </figure>
       </div>
       <ul class="vp-list">
         <li>
